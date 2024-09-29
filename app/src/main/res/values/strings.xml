@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Tic Tac Toe Application</string>
+    <string name="reset">Reset</string>
+    <string name="btn1">Button 1</string>
+    <string name="btn2">Button 2</string>
+    <string name="btn3">Button 3</string>
+    <string name="btn4">Button 4</string>
+    <string name="btn5">Button 5</string>
+    <string name="btn6">Button 6</string>
+    <string name="btn7">Button 7</string>
+    <string name="btn8">Button 8</string>
+    <string name="btn9">Button 9</string>
 </resources>

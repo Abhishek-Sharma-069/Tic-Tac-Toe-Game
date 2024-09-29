@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <GridLayout
@@ -18,47 +19,75 @@
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn1"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn1"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn2"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn2"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn3"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn3"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn4"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn4"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn5"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn5"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn6"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn6"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn7"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn7"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn8"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn8"/>
 
         <Button
             android:layout_margin="10dp"
             android:id="@+id/btn9"
-            android:background="@drawable/corner_button" />
+            android:background="@drawable/corner_button"
+            android:onClick="check"
+            android:contentDescription="@string/btn9"/>
+
 
     </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:background="@drawable/corner_button"
+        android:layout_marginTop="35dp"
+        android:text="@string/reset"
+        />
 </LinearLayout>
